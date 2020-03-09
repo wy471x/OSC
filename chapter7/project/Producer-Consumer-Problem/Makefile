@@ -7,5 +7,4 @@ producer-consumer : $(SRCS)
 	$(CC) -o $@ $^ $(LIBS)
 
 clean :
-	rm -rf *.o
-	rm -rf 
+	rm -rf $(EXE)
